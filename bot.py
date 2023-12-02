@@ -10,8 +10,7 @@ from datetime import datetime
 import pytz
 from dateutil import tz
 
-domain = "https://api.chootc.com"
-
+bot_id = "6964567624:AAGWQSduHfbbz7IcK8nn65lLJ53ERz2J8YM"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Tham giá @chootcvn để mua, bán USDT số lượng lớn.", parse_mode=constants.ParseMode.HTML)
@@ -53,8 +52,7 @@ def get_balance(address):
     else:
         return f'{round(float(token_balance["balance"])*pow(10, -6)):,}'
 
-app = ApplicationBuilder().token(
-    "6605453961:AAEuAw1XyloVT0fmn53c48RFcw2cMQ3WCJw").build()
+app = ApplicationBuilder().token(bot_id).build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.ALL, messageHandler))
