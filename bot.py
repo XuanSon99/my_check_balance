@@ -38,6 +38,12 @@ async def messageHandler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         await context.bot.delete_message(message_id=message_id.message_id, chat_id=chat_id)
         await context.bot.send_message(chat_id, text, parse_mode=constants.ParseMode.HTML)
 
+    if "/vi" in update.message.text:
+        address = "TLd1GNEvc3f3av3Q6vPNS6KARbdA5ge5tQ"
+        text = f"Số dư: {get_balance(address)}"
+        await context.bot.send_message(chat_id, text=text, parse_mode=constants.ParseMode.HTML)
+
+
 def get_balance(address):
     url = "https://apilist.tronscan.org/api/account"
     payload = {
