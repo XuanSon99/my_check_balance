@@ -10,11 +10,6 @@
     "block_timestamp": 1696823121000
   },
   {
-    "name": "Chị Vân",
-    "wallet": "TJpwUoYiGj2HZB1qTVTaqprXmW3nu5QXTD",
-    "block_timestamp": 1696824162000
-  },
-  {
     "name": "Kiều Thắng 1",
     "wallet": "TFBKe1pThLetwQqFyghSEuhZFtLeSH94SM",
     "block_timestamp": 1696823991000
@@ -25,17 +20,12 @@
     "block_timestamp": 1696823991000
   },
   {
-    "name": "Tiger",
-    "wallet": "TRBnrqCS8W2ZwtqPxcdPqLkeVANN7jbjHP",
-    "block_timestamp": 1696824057000
+    "name": "Chị Vân",
+    "wallet": "TJpwUoYiGj2HZB1qTVTaqprXmW3nu5QXTD",
+    "block_timestamp": 1696824162000
   },
   {
-    "name": "Tốn 1",
-    "wallet": "TTaMu11pL5kDcneWqSwtmp87CLm1dwV8Js",
-    "block_timestamp": 1696824066000
-  },
-  {
-    "name": "Tốn 2",
+    "name": "Tốn",
     "wallet": "TG87y7JgVHPrQhZJF9EJAaMYp8cuyorNnv",
     "block_timestamp": 1696824057000
   },
@@ -43,20 +33,5 @@
     "name": "Anh Liêm",
     "wallet": "TDa3X9wFxvbBhc6jdZrBWNQkju4sa5Xbd7",
     "block_timestamp": 1696823730000
-  },
-  {
-    "name": "Lãm Dz",
-    "wallet": "TYmYmW6vWv2juTFqkd7jqZst1cN3aqsVH9",
-    "block_timestamp": 1696819209000
-  },
-  {
-    "name": "Cny Việt Anh",
-    "wallet": "TJDQHdnjkijmiDvrBN6njKcvFumNreXrbr",
-    "block_timestamp": 1696823832000
-  },
-  {
-    "name": "Thanh Jolly",
-    "wallet": "TUrZFw25SikBUo73PsgdWA4CqUeRRo9jpa",
-    "block_timestamp": 1696824057000
   }
 ]
